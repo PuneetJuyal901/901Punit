@@ -1,0 +1,4 @@
+com/test/lanalabs/pages/LandingPage.class
+com/test/lanalabs/utility/ConfigReader.class
+com/test/lanalabs/base/TestBase.class
+com/test/lanalabs/pages/HomePage.class

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MultipleSuite">
+
+
+
+
+
+
+
+	<test name="Test1" preserve-order="true">
+		<classes>
+			<class name="login.Verify_Login_Scenario" />
+			<parameter name="Browser" value="Chrome" />
+		</classes>
+	</test>
+
+
+	<test name="Test2" preserve-order="true">
+		<classes>
+			<class name="filter.Verify_If_Selected_Filter_Is_Applied" />
+			<parameter name="Browser" value="Chrome" />
+		</classes>
+	</test>
+
+
+	<test name="Test3" preserve-order="true">
+		<classes>
+			<class name="filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart" />
+			<parameter name="Browser" value="Chrome" />
+		</classes>
+	</test>
+
+
+
+
+
+
+
+
+
+</suite>
+
+
+ 

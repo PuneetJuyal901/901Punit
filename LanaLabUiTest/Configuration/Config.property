@@ -1,0 +1,14 @@
+                          *****URL********
+                          
+ APP_URL=https://magellanic.lanalabs.com/login
+ 
+ 
+ 
+ 
+ 
+              *************PATH*****************
+ 
+ EXTENT_CONFIG_PATH=//test-output//extent-config.xmls
+ 
+ 
+ 
