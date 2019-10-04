@@ -10,8 +10,8 @@ import com.framework.base.JsonReader;
 import com.framework.base.LocalBrowserInitialzation;
 import com.framework.helper.AssertionHelper;
 import com.test.lanalabs.base.TestBase;
+import com.test.lanalabs.pages.LoginPage;
 import com.test.lanalabs.pages.HomePage;
-import com.test.lanalabs.pages.LandingPage;
 
 import bsh.ParseException;
 
@@ -21,8 +21,8 @@ public class Verify_If_Selected_Filter_Is_Applied extends TestBase{
 	@Test(priority=0,dataProvider="Testdata_For_Filter_Scenarios")
 	public void verify_if_country_filter_is_applied(String userName,String password,String textInSerachField,String countryFilterText) throws InterruptedException {
 		
-		HomePage homePage =new HomePage(LocalBrowserInitialzation.driver);
-		LandingPage landingPage= new LandingPage(LocalBrowserInitialzation.driver);
+		LoginPage homePage =new LoginPage(LocalBrowserInitialzation.driver);
+		HomePage landingPage= new HomePage(LocalBrowserInitialzation.driver);
 		
 		homePage.userEnterEmailAndPassword(userName,password).clickOnSignButton().clickOnLandingPagePopUpRadioButton().
 		clickOnLandingPagePopUpRadioButton().clickOnLandingPagePopUpSelectedButton().clickOnModalViewPopUp().clickOnLandingPageHorizontalBars()

@@ -9,32 +9,28 @@ import com.framework.base.JsonReader;
 import com.framework.base.LocalBrowserInitialzation;
 import com.framework.helper.AssertionHelper;
 import com.test.lanalabs.base.TestBase;
-import com.test.lanalabs.pages.HomePage;
+import com.test.lanalabs.pages.LoginPage;
 
 import bsh.ParseException;
 
 public class Verify_Login_Scenario extends TestBase {
 
-	
-	
 	@Test(priority = 0, dataProvider = "Testdata_Invalid_Email_Password")
 	public void verify_if_user_get_the_error_message_with_invalid_username_and_password(String userName,
 			String password, String ErrorMessage) {
 
-		HomePage homepage = new HomePage(LocalBrowserInitialzation.driver);
+		LoginPage homepage = new LoginPage(LocalBrowserInitialzation.driver);
 		homepage.userEnterEmailAndPassword(userName, password).clickOnSignButton();
 
 		AssertionHelper.softAssertToCompareString(homepage.errorMessageWhileGivingInvalidDetails(), ErrorMessage,
 				"verify_if_user_get_the_error_message_with_invalid_username fail");
 	}
-	
-	
 
 	@Test(priority = 1, dataProvider = "Testdata_Valid_Email_And_Case_Sensative_Password")
 	public void verify_if_user_not_able_to_login_when_password_is_case_sensitve(String userName, String password,
 			String errorMessage) {
 
-		HomePage homepage = new HomePage(LocalBrowserInitialzation.driver);
+		LoginPage homepage = new LoginPage(LocalBrowserInitialzation.driver);
 		homepage.userEnterEmailAndPassword(userName, password).clickOnSignButton();
 		AssertionHelper.softAssertToCompareString(homepage.errorMessageWhileGivingInvalidDetails(), errorMessage,
 				"verify_if_user_not_able_to_login_when_password_is_case_sensitve fail");
@@ -45,7 +41,7 @@ public class Verify_Login_Scenario extends TestBase {
 	public void verify_if_user_able_to_login_when_email_is_case_sensitive(String email, String password,
 			String landingPagePopText) {
 
-		HomePage homepage = new HomePage(LocalBrowserInitialzation.driver);
+		LoginPage homepage = new LoginPage(LocalBrowserInitialzation.driver);
 		AssertionHelper.softAssertToCompareString(
 				homepage.userEnterEmailAndPassword(email, password).clickOnSignButton().getLandingPagePopUpText(),
 				landingPagePopText, "LandingPage popup text not matching for casesSensative email");
@@ -55,16 +51,13 @@ public class Verify_Login_Scenario extends TestBase {
 	public void verify_if_user_able_to_login_with_valid_credentials(String email, String password,
 			String landingPagePopText) {
 
-		HomePage homepage = new HomePage(LocalBrowserInitialzation.driver);
+		LoginPage homepage = new LoginPage(LocalBrowserInitialzation.driver);
 		AssertionHelper.softAssertToCompareString(
 				homepage.userEnterEmailAndPassword(email, password).clickOnSignButton().getLandingPagePopUpText(),
 				landingPagePopText, "LandingPage popup text not matching");
 
 	}
 
-	
-	
-	
 	@DataProvider(name = "Testdata_Invalid_Email_Password")
 	public Object[][] passData1() throws IOException, ParseException {
 		return JsonReader.getdata(
