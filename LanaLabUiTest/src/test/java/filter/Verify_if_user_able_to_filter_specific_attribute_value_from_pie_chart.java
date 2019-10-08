@@ -22,8 +22,8 @@ public class Verify_if_user_able_to_filter_specific_attribute_value_from_pie_cha
 		LoginPage homePage =new LoginPage(LocalBrowserInitialzation.driver);
 		HomePage landingPage= new HomePage(LocalBrowserInitialzation.driver);
 		
-		homePage.userEnterEmailAndPassword(userName,password).clickOnSignButton().clickOnLandingPagePopUpRadioButton().
-		clickOnLandingPagePopUpRadioButton().clickOnLandingPagePopUpSelectedButton().clickOnModalViewPopUp().clickOnLandingPageHorizontalBars()
+		homePage.userEnterEmailAndPassword(userName,password).clickOnSignButton().clickOnLandingPagePopUpRadioButton()
+		.clickOnLandingPagePopUpSelectedButton().clickOnModalViewPopUp().clickOnLandingPageHorizontalBars()
 		.clickOnFilterAttribute().clickOnFilterAttributeSerachFieldPopUp(textInSerachField).clickOnFilterAttributePopUpCountryCheckBox()
 		.clickOnfilterAttriutbutePopUpSaveButton().clickOnFirstSegment();
 		
