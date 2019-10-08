@@ -62,7 +62,7 @@ public class Verify_Login_Scenario extends TestBase {
 	public Object[][] passData1() throws IOException, ParseException {
 		return JsonReader.getdata(
 				System.getProperty("user.dir") + "//TestData//"
-						+ "//Test_Data_For_Tc_01_Verify_Login_Scenario_invalid_user_and_password.json",
+						+ "Login//"+"Test_Data_For_Verify_Login_Scenario_invalid_user_and_password.json",
 				"TestData_for_invalid_username_password", 1, 3);
 
 	}
@@ -70,7 +70,7 @@ public class Verify_Login_Scenario extends TestBase {
 	@DataProvider(name = "Testdata_Valid_Email_And_Case_Sensative_Password")
 	public Object[][] passData2() throws IOException, ParseException {
 		return JsonReader.getdata(System.getProperty("user.dir") + "//TestData//"
-				+ "//Test_Data_For_Tc_01_Verify_Login_Scenario_with_valid_email_but_case_Sesative_password.json",
+				+ "//Login//"+"Test_Data_For_Verify_Login_Scenario_with_valid_email_but_case_Sesative_password.json",
 				"TestData_For_Valid_email_case_sensative_password", 1, 3);
 
 	}
@@ -78,7 +78,7 @@ public class Verify_Login_Scenario extends TestBase {
 	@DataProvider(name = "Testdata_Valid_Passsword_And_Case_Sensative_Email")
 	public Object[][] passData3() throws IOException, ParseException {
 		return JsonReader.getdata(System.getProperty("user.dir") + "//TestData//"
-				+ "//Test_Data_For_Tc_01_Verify_Login_Scenario_With_Valid_Password_And_Case_Sensative_Email.json",
+				+"//Login//Test_Data_For_Verify_Login_Scenario_With_Valid_Password_And_Case_Sensative_Email.json",
 				"TestData_For_Valid_Password_But_Case_Sensative_Email", 1, 3);
 
 	}
@@ -87,7 +87,7 @@ public class Verify_Login_Scenario extends TestBase {
 	public Object[][] passData4() throws IOException, ParseException {
 		return JsonReader.getdata(
 				System.getProperty("user.dir") + "//TestData//"
-						+ "//Test_Data_For_Tc_01_Verify_Login_Scenario_Valid_User_And_Password.json",
+						+ "//Login//"+"Test_Data_For_Verify_Login_Scenario_Valid_User_And_Password.json",
 				"TestData_for_valid_username_password", 1, 3);
 
 	}

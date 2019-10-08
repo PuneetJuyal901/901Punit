@@ -12,7 +12,7 @@ public class WaitHelper {
 	
 	public static boolean explictWait(WebDriver driver ) {
 		try {
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return true;
 		}
 		catch (Exception e) {
@@ -24,7 +24,7 @@ public class WaitHelper {
 
 	public static boolean elementToBeSelected(WebElement element,WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,30);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 			return true;
 		} catch (Exception e) {
@@ -35,7 +35,7 @@ public class WaitHelper {
 	
 	public static boolean frameToBeAvaliableAndSwitchToIt(WebElement element,WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,30);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(element));
 			return true;
 		} catch (Exception e) {
@@ -46,7 +46,7 @@ public class WaitHelper {
 	public static boolean invisibilityOfTheElementLocated(WebElement element,WebDriver driver)
 	{
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,30);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.invisibilityOf(element));
 			return true;
 		} catch (Exception e) {
@@ -57,7 +57,7 @@ public class WaitHelper {
 	
 	public static boolean alertToBePresent(WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,30);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.alertIsPresent());
 			return true;
 		} catch (Exception e) {
@@ -67,7 +67,7 @@ public class WaitHelper {
 	
 	public static boolean isClickable(WebElement element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver,30);
+			WebDriverWait wait = new WebDriverWait(driver,10);
 			wait.until(ExpectedConditions.elementToBeClickable(element));
 			return true;
 		} catch (Exception e) {
@@ -77,7 +77,7 @@ public class WaitHelper {
 	
 	public static boolean isStale(WebElement element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf(element));
 			return true;	    
 	       } catch (Exception StaleElementReferenceException) {
@@ -88,7 +88,7 @@ public class WaitHelper {
 	
 	public static boolean invisibilityOfTheElementLocate(WebElement element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.invisibilityOf(element));
 			return true;
 		} catch (Exception e) {
@@ -98,7 +98,7 @@ public class WaitHelper {
 	
 	public static boolean presenceOfAllElementsLocatedBy(By element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.presenceOfElementLocated(element));
 			return true;
 		} catch (Exception e) {
@@ -108,7 +108,7 @@ public class WaitHelper {
 	
 	public static boolean invisibilityOfElementWithText(By element, WebDriver driver,String text) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.invisibilityOfElementWithText(element, text));
 			return true;
 		} catch (Exception e) {
@@ -118,7 +118,7 @@ public class WaitHelper {
 
 	public static boolean textToBePresentInElement(WebElement element, WebDriver driver,String text) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 			return true;
 		} catch (Exception e) {
@@ -128,7 +128,7 @@ public class WaitHelper {
 	
 	public static boolean textToBePresentInElementLocated(By element, WebDriver driver,String text) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.textToBePresentInElementLocated(element, text));
 			return true;
 		} catch (Exception e) {
@@ -138,7 +138,7 @@ public class WaitHelper {
 	
 	public static boolean textToBePresentInElementValue(WebElement element, WebDriver driver,String text) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.textToBePresentInElementValue(element, text)); 
 			return true;
 
@@ -149,7 +149,7 @@ public class WaitHelper {
 	
 	public static boolean titleContains( WebDriver driver,String text) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.titleContains(text)); 
 			return true;
 
@@ -160,7 +160,7 @@ public class WaitHelper {
 	
 	public static boolean visibilityOfAllElements( WebDriver driver,WebElement element ) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOfAllElements(element)); 
 			return true;
 
@@ -171,7 +171,7 @@ public class WaitHelper {
 	
 	public static boolean visibilityOfElementLocated( WebDriver driver,By element ) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOfElementLocated(element)); 
 			return true;
 
@@ -182,7 +182,7 @@ public class WaitHelper {
 
 	public static boolean isvisible(WebElement element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf((element))); 
 			return true;
 
@@ -194,7 +194,7 @@ public class WaitHelper {
 
 	public static boolean isNotVisible(WebElement element, WebDriver driver) {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.invisibilityOf(element));
 			return true;
 		} catch (Exception e) {

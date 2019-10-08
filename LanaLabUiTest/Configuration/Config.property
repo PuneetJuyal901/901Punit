@@ -8,7 +8,7 @@
  
               *************PATH*****************
  
- EXTENT_CONFIG_PATH=//test-output//extent-config.xmls
+ EXTENT_CONFIG_PATH=//test-output//extent-config.xml
  
  
  

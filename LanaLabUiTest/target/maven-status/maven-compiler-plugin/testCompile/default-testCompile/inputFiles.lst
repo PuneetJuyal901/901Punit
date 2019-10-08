@@ -1,3 +1,3 @@
-/Users/puneetjuyal/eclipse-workspace/LanaLabUiTest/src/test/java/filter/Verify_If_Selected_Filter_Is_Applied.java
-/Users/puneetjuyal/eclipse-workspace/LanaLabUiTest/src/test/java/filter/Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart.java
-/Users/puneetjuyal/eclipse-workspace/LanaLabUiTest/src/test/java/login/Verify_Login_Scenario.java
+/Users/puneetjuyal/LanaLabs/LanaLabUiTest/src/test/java/login/Verify_Login_Scenario.java
+/Users/puneetjuyal/LanaLabs/LanaLabUiTest/src/test/java/filter/Verify_If_Selected_Filter_Is_Applied.java
+/Users/puneetjuyal/LanaLabs/LanaLabUiTest/src/test/java/filter/Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart.java

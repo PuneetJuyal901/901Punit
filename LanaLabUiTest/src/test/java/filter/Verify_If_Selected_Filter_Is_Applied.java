@@ -41,7 +41,7 @@ public class Verify_If_Selected_Filter_Is_Applied extends TestBase{
 	public Object[][] passData() throws IOException, ParseException {
 		return JsonReader.getdata(
 				System.getProperty("user.dir") + "//TestData//"
-						+ "//Test_Data_For_Tc_02_Verify_Filter_Scenario.json",
+						+ "//filter"+"//Test_Data_For_Verify_Filter_Scenario.json",
 				"Test_Data_For_Filter_Scenarios", 1, 4);
 
 	}

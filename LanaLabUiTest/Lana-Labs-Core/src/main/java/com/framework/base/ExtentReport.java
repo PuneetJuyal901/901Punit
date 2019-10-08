@@ -26,7 +26,7 @@ public class ExtentReport {
 	
 	public static void initiliazeExtentReport(String filePath,String extentXML) {
 		extent = new ExtentReports(filePath, false);
-		extent.loadConfig(new File("undostres_core//test-output//extent-config.xml"));
+		extent.loadConfig(new File(extentXML));
 	}
 
 }
