@@ -62,6 +62,7 @@ public class HomePage {
 
 	@FindBy(how = How.XPATH, using = "//span[@class='ng-star-inserted']")
 	private WebElement topRightCaseCountHeader;
+	
 
 	public String getLandingPagePopUpText() {
 
@@ -156,5 +157,12 @@ public class HomePage {
 		String[] countCaseOfTopValue = this.topRightCaseCountHeader.getText().split("\\s");
 		return countCaseOfTopValue[1];
 	}
+	
+	public String getUrlOfTheLoginPage() {
+		WaitHelper.isvisible(landingPagePopUserSlectedButton, LocalBrowserInitialzation.driver);
+		return LocalBrowserInitialzation.driver.getCurrentUrl();
+	
+	}
+	
 
 }

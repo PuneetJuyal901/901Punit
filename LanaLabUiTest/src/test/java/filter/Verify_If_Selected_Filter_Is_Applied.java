@@ -11,12 +11,15 @@ import com.framework.base.LocalBrowserInitialzation;
 import com.framework.helper.AssertionHelper;
 import com.test.lanalabs.base.TestBase;
 import com.test.lanalabs.pages.LoginPage;
+import com.test.lanalabs.utility.ConfigReader;
 import com.test.lanalabs.pages.HomePage;
 
 import bsh.ParseException;
 
 
 public class Verify_If_Selected_Filter_Is_Applied extends TestBase{
+	
+	ConfigReader reader= new ConfigReader();
 	
 	@Test(priority=0,dataProvider="Testdata_For_Filter_Scenarios")
 	public void verify_if_country_filter_is_applied(String userName,String password,String textInSerachField,String countryFilterText) throws InterruptedException {
@@ -39,10 +42,8 @@ public class Verify_If_Selected_Filter_Is_Applied extends TestBase{
 	
 	@DataProvider(name = "Testdata_For_Filter_Scenarios")
 	public Object[][] passData() throws IOException, ParseException {
-		return JsonReader.getdata(
-				System.getProperty("user.dir") + "//TestData//"
-						+ "//filter"+"//Test_Data_For_Verify_Filter_Scenario.json",
-				"Test_Data_For_Filter_Scenarios", 1, 4);
+		return JsonReader.getdata(System.getProperty("user.dir")+reader.getFilterScenarioTestDataJSONPath(),
+				reader.getFilterScenarioTestDataValue(), 1, 4);
 
 	}
 	

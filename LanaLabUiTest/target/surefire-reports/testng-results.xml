@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-08T09:33:10Z" name="MultipleSuite" finished-at="2019-10-08T09:36:29Z" duration-ms="199061">
+  <suite started-at="2019-10-10T09:39:10Z" name="MultipleSuite" finished-at="2019-10-10T09:41:06Z" duration-ms="116054">
     <groups>
     </groups>
-    <test started-at="2019-10-08T09:33:10Z" name="Test1" finished-at="2019-10-08T09:35:16Z" duration-ms="125982">
+    <test started-at="2019-10-10T09:39:10Z" name="Test1" finished-at="2019-10-10T09:40:02Z" duration-ms="51970">
       <class name="login.Verify_Login_Scenario">
-        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:10Z" name="initialzeBrowser" finished-at="2019-10-08T09:33:26Z" duration-ms="15892" status="PASS">
+        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:10Z" name="initialzeBrowser" finished-at="2019-10-10T09:39:26Z" duration-ms="16196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeBrowser -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:26Z" name="nameBefore" finished-at="2019-10-08T09:33:26Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:27Z" name="nameBefore" finished-at="2019-10-10T09:39:27Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_username_and_password(java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_username(java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verify_if_user_get_the_error_message_with_invalid_username_and_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:26Z" name="verify_if_user_get_the_error_message_with_invalid_username_and_password" data-provider="Testdata_Invalid_Email_Password" finished-at="2019-10-08T09:33:33Z" duration-ms="6815" status="PASS">
+        <test-method signature="verify_if_user_get_the_error_message_with_invalid_username(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:27Z" name="verify_if_user_get_the_error_message_with_invalid_username" data-provider="Testdata_For_Invalid_UserName" finished-at="2019-10-10T09:39:32Z" duration-ms="4998" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Test@1234]]>
+                <![CDATA[Test@123456]]>
               </value>
             </param>
             <param index="2">
@@ -54,23 +54,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_if_user_get_the_error_message_with_invalid_username_and_password -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:33Z" name="getResult" finished-at="2019-10-08T09:33:33Z" duration-ms="3" status="PASS">
+        </test-method> <!-- verify_if_user_get_the_error_message_with_invalid_username -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:32Z" name="getResult" finished-at="2019-10-10T09:39:32Z" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_user_get_the_error_message_with_invalid_username_and_password status=SUCCESS method=Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_username_and_password(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_if_user_get_the_error_message_with_invalid_username status=SUCCESS method=Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_username(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:33Z" name="nameBefore" finished-at="2019-10-08T09:33:33Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:32Z" name="nameBefore" finished-at="2019-10-10T09:39:32Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_not_able_to_login_when_password_is_case_sensitve(java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_caseSensative_password(java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -82,11 +82,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verify_if_user_not_able_to_login_when_password_is_case_sensitve(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:33Z" name="verify_if_user_not_able_to_login_when_password_is_case_sensitve" data-provider="Testdata_Valid_Email_And_Case_Sensative_Password" finished-at="2019-10-08T09:33:34Z" duration-ms="1489" status="PASS">
+        <test-method signature="verify_if_user_get_the_error_message_with_invalid_caseSensative_password(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:32Z" name="verify_if_user_get_the_error_message_with_invalid_caseSensative_password" data-provider="Testdata_For_Invalid_CaseSensative_Password" finished-at="2019-10-10T09:39:33Z" duration-ms="1802" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[punitjuyal902@gmail.com]]>
+                <![CDATA[punitjuyal901@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -102,23 +102,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_if_user_not_able_to_login_when_password_is_case_sensitve -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:34Z" name="getResult" finished-at="2019-10-08T09:33:34Z" duration-ms="1" status="PASS">
+        </test-method> <!-- verify_if_user_get_the_error_message_with_invalid_caseSensative_password -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:33Z" name="getResult" finished-at="2019-10-10T09:39:33Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_user_not_able_to_login_when_password_is_case_sensitve status=SUCCESS method=Verify_Login_Scenario.verify_if_user_not_able_to_login_when_password_is_case_sensitve(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:login.Verify_Login_Scenario@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_if_user_get_the_error_message_with_invalid_caseSensative_password status=SUCCESS method=Verify_Login_Scenario.verify_if_user_get_the_error_message_with_invalid_caseSensative_password(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:login.Verify_Login_Scenario@5403f35f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:34Z" name="nameBefore" finished-at="2019-10-08T09:33:34Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:33Z" name="nameBefore" finished-at="2019-10-10T09:39:33Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_able_to_login_when_email_is_case_sensitive(java.lang.String,java.lang.String,java.lang.String)]]>
+                <![CDATA[public void login.Verify_Login_Scenario.verify_if_user_able_to_login_with_CaseSensativeEmail(java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
             <param index="1">
@@ -130,11 +130,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verify_if_user_able_to_login_when_email_is_case_sensitive(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:33:34Z" name="verify_if_user_able_to_login_when_email_is_case_sensitive" data-provider="Testdata_Valid_Passsword_And_Case_Sensative_Email" finished-at="2019-10-08T09:35:06Z" duration-ms="91967" status="FAIL">
+        <test-method signature="verify_if_user_able_to_login_with_CaseSensativeEmail(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:33Z" name="verify_if_user_able_to_login_with_CaseSensativeEmail" data-provider="Testdata_For_Valid_CaseSensativeEmail" finished-at="2019-10-10T09:39:55Z" duration-ms="21601" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[PUNITJUYAL901@GMAIL.COM.com]]>
+                <![CDATA[PUNITJUYAL901@GMAIL.COM]]>
               </value>
             </param>
             <param index="1">
@@ -144,51 +144,21 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[Choose a log]]>
+                <![CDATA[https://magellanic.lanalabs.com/model]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Choose a log')]"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Puneets-MBP-470a', ip: '192.168.43.72', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/jd/b9315b4d7gl...}, goog:chromeOptions: {debuggerAddress: localhost:60203}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5433e3f48552e372cc75523a9cfee84
-*** Element info: {Using=xpath, value=//h2[contains(text(),'Choose a log')]}]]>
+              <![CDATA[The following asserts failed:
+HomePage Url  not matching for testdata username=PUNITJUYAL901@GMAIL.COMand password=Test@123456 expected [https://magellanic.lanalabs.com/model] but found [https://lana-labs.auth.eu-central-1.amazoncognito.com/login?response_type=code&client_id=2961stifta255ivnm3cpngsdac&redirect_uri=https://magellanic.lanalabs.com/aws]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'Choose a log')]"}
-  (Session info: chrome=77.0.3865.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Puneets-MBP-470a', ip: '192.168.43.72', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: /var/folders/jd/b9315b4d7gl...}, goog:chromeOptions: {debuggerAddress: localhost:60203}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5433e3f48552e372cc75523a9cfee84
-*** Element info: {Using=xpath, value=//h2[contains(text(),'Choose a log')]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy15.getText(Unknown Source)
-at com.test.lanalabs.pages.HomePage.getLandingPagePopUpText(HomePage.java:69)
-at login.Verify_Login_Scenario.verify_if_user_able_to_login_when_email_is_case_sensitive(Verify_Login_Scenario.java:46)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+HomePage Url  not matching for testdata username=PUNITJUYAL901@GMAIL.COMand password=Test@123456 expected [https://magellanic.lanalabs.com/model] but found [https://lana-labs.auth.eu-central-1.amazoncognito.com/login?response_type=code&client_id=2961stifta255ivnm3cpngsdac&redirect_uri=https://magellanic.lanalabs.com/aws]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.framework.helper.AssertionHelper.softAssertToCompareString(AssertionHelper.java:67)
+at login.Verify_Login_Scenario.verify_if_user_able_to_login_with_CaseSensativeEmail(Verify_Login_Scenario.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -220,22 +190,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_if_user_able_to_login_when_email_is_case_sensitive -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:35:06Z" name="getResult" finished-at="2019-10-08T09:35:06Z" duration-ms="325" status="PASS">
+        </test-method> <!-- verify_if_user_able_to_login_with_CaseSensativeEmail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:55Z" name="getResult" finished-at="2019-10-10T09:39:55Z" duration-ms="360" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_user_able_to_login_when_email_is_case_sensitive status=FAILURE method=Verify_Login_Scenario.verify_if_user_able_to_login_when_email_is_case_sensitive(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:login.Verify_Login_Scenario@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_if_user_able_to_login_with_CaseSensativeEmail status=FAILURE method=Verify_Login_Scenario.verify_if_user_able_to_login_with_CaseSensativeEmail(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:login.Verify_Login_Scenario@5403f35f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:35:06Z" name="nameBefore" finished-at="2019-10-08T09:35:06Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:55Z" name="nameBefore" finished-at="2019-10-10T09:39:55Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +221,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verify_if_user_able_to_login_with_valid_credentials(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:35:06Z" name="verify_if_user_able_to_login_with_valid_credentials" data-provider="Testdata_For_Valid_Email_Password" finished-at="2019-10-08T09:35:16Z" duration-ms="9260" status="PASS">
+        <test-method signature="verify_if_user_able_to_login_with_valid_credentials(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:39:55Z" name="verify_if_user_able_to_login_with_valid_credentials" data-provider="Testdata_For_Valid_Credentials" finished-at="2019-10-10T09:40:02Z" duration-ms="6713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -265,22 +235,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Choose a log]]>
+                <![CDATA[https://magellanic.lanalabs.com/model]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_if_user_able_to_login_with_valid_credentials -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:35:16Z" name="TearDown" finished-at="2019-10-08T09:35:16Z" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:40:02Z" name="TearDown" finished-at="2019-10-10T09:40:02Z" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@49c7b90e]" started-at="2019-10-08T09:35:16Z" name="getResult" finished-at="2019-10-08T09:35:16Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:login.Verify_Login_Scenario@5403f35f]" started-at="2019-10-10T09:40:02Z" name="getResult" finished-at="2019-10-10T09:40:02Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_user_able_to_login_with_valid_credentials status=SUCCESS method=Verify_Login_Scenario.verify_if_user_able_to_login_with_valid_credentials(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:login.Verify_Login_Scenario@49c7b90e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_if_user_able_to_login_with_valid_credentials status=SUCCESS method=Verify_Login_Scenario.verify_if_user_able_to_login_with_valid_credentials(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:login.Verify_Login_Scenario@5403f35f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -289,9 +259,9 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- getResult -->
       </class> <!-- login.Verify_Login_Scenario -->
     </test> <!-- Test1 -->
-    <test started-at="2019-10-08T09:35:16Z" name="Test2" finished-at="2019-10-08T09:35:51Z" duration-ms="35561">
+    <test started-at="2019-10-10T09:40:02Z" name="Test2" finished-at="2019-10-10T09:40:33Z" duration-ms="30381">
       <class name="filter.Verify_If_Selected_Filter_Is_Applied">
-        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078]" started-at="2019-10-08T09:35:16Z" name="initialzeBrowser" finished-at="2019-10-08T09:35:30Z" duration-ms="14337" status="PASS">
+        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e]" started-at="2019-10-10T09:40:02Z" name="initialzeBrowser" finished-at="2019-10-10T09:40:17Z" duration-ms="14416" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -302,7 +272,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeBrowser -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078]" started-at="2019-10-08T09:35:30Z" name="nameBefore" finished-at="2019-10-08T09:35:30Z" duration-ms="1" status="PASS">
+        <test-method signature="verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e]" started-at="2019-10-10T09:40:17Z" name="verify_if_country_filter_is_applied" data-provider="Testdata_For_Filter_Scenarios" finished-at="2019-10-10T09:40:33Z" duration-ms="15834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[punitjuyal901@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Country]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Country filter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_if_country_filter_is_applied -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e]" started-at="2019-10-10T09:40:17Z" name="nameBefore" finished-at="2019-10-10T09:40:17Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -318,41 +314,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method signature="verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078]" started-at="2019-10-08T09:35:30Z" name="verify_if_country_filter_is_applied" data-provider="Testdata_For_Filter_Scenarios" finished-at="2019-10-08T09:35:51Z" duration-ms="21080" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[punitjuyal901@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Country]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Country filter]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_if_country_filter_is_applied -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078]" started-at="2019-10-08T09:35:51Z" name="TearDown" finished-at="2019-10-08T09:35:51Z" duration-ms="139" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e]" started-at="2019-10-10T09:40:33Z" name="TearDown" finished-at="2019-10-10T09:40:33Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078]" started-at="2019-10-08T09:35:51Z" name="getResult" finished-at="2019-10-08T09:35:51Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e]" started-at="2019-10-10T09:40:33Z" name="getResult" finished-at="2019-10-10T09:40:33Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_country_filter_is_applied status=SUCCESS method=Verify_If_Selected_Filter_Is_Applied.verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@6da21078] output={null}]]]>
+                <![CDATA[[TestResult name=verify_if_country_filter_is_applied status=SUCCESS method=Verify_If_Selected_Filter_Is_Applied.verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_If_Selected_Filter_Is_Applied@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -361,13 +331,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- getResult -->
       </class> <!-- filter.Verify_If_Selected_Filter_Is_Applied -->
     </test> <!-- Test2 -->
-    <test started-at="2019-10-08T09:35:51Z" name="Test3" finished-at="2019-10-08T09:36:29Z" duration-ms="37413">
+    <test started-at="2019-10-10T09:40:33Z" name="Test3" finished-at="2019-10-10T09:41:06Z" duration-ms="33600">
       <class name="filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:33:09Z" name="beforeSuite" finished-at="2019-10-08T09:33:10Z" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:39:10Z" name="beforeSuite" finished-at="2019-10-10T09:39:10Z" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:35:51Z" name="initialzeBrowser" finished-at="2019-10-08T09:36:06Z" duration-ms="15048" status="PASS">
+        <test-method is-config="true" signature="initialzeBrowser(java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:40:33Z" name="initialzeBrowser" finished-at="2019-10-10T09:40:46Z" duration-ms="13196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -378,33 +348,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialzeBrowser -->
-        <test-method signature="verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:36:06Z" name="verify_if_country_filter_is_applied" data-provider="Testdata_For_Filter_Scenarios" finished-at="2019-10-08T09:36:29Z" duration-ms="22193" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[punitjuyal901@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@123456]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Country]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Country filter]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_if_country_filter_is_applied -->
-        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:36:06Z" name="nameBefore" finished-at="2019-10-08T09:36:06Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:40:46Z" name="nameBefore" finished-at="2019-10-10T09:40:46Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -420,22 +364,48 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- nameBefore -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:36:29Z" name="getResult" finished-at="2019-10-08T09:36:29Z" duration-ms="0" status="PASS">
+        <test-method signature="verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:40:46Z" name="verify_if_country_filter_is_applied" data-provider="Testdata_For_Filter_Scenarios" finished-at="2019-10-10T09:41:06Z" duration-ms="20275" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_if_country_filter_is_applied status=SUCCESS method=Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart.verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180] output={null}]]]>
+                <![CDATA[punitjuyal901@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Country]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Country filter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_if_country_filter_is_applied -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:41:06Z" name="getResult" finished-at="2019-10-10T09:41:06Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_if_country_filter_is_applied status=SUCCESS method=Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart.verify_if_country_filter_is_applied(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:36:29Z" name="TearDown" finished-at="2019-10-08T09:36:29Z" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:41:06Z" name="TearDown" finished-at="2019-10-10T09:41:06Z" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="closeExtentReport()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@169e6180]" started-at="2019-10-08T09:36:29Z" name="closeExtentReport" finished-at="2019-10-08T09:36:29Z" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="closeExtentReport()[pri:0, instance:filter.Verify_if_user_able_to_filter_specific_attribute_value_from_pie_chart@3b6ddd1d]" started-at="2019-10-10T09:41:06Z" name="closeExtentReport" finished-at="2019-10-10T09:41:07Z" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeExtentReport -->

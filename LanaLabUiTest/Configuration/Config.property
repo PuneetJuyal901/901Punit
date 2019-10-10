@@ -6,9 +6,27 @@
  
  
  
-              *************PATH*****************
+              *************EXTENT-REPORT-PATH*****************
  
  EXTENT_CONFIG_PATH=//test-output//extent-config.xml
  
+                            *************JSON-FILE-PATH*****************
+
+
+ ******TEST_DATA_FILE_PATH_FOR_LOGIN_SCENARIO********************
+ 
+ LOGIN_CREDENTIALS_TESTDATA_PATH=//TestData//Login//Test_Data_For_Login_Credentials.json
+ 
+ LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_INVALID_USER_NAME=InvalidUserName
+ LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_INVALID_CASE_SENSATIVE_PASSWORD=InvalidCaseSensitivePassword
+ LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_VALID_CASE_SENSATIVE_USERNAME=ValidCaseSensitiveUserName
+ LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_VALID_CREDENTAILS=ValidCedentials
+ 
+***************TEST_DATA_FILE_PATH_FOR_FILTER_SCENARIO**************************
+
+FILTER_SCENARIO_TESTDATA_PATH= //TestData//filter//Test_Data_For_Verify_Filter_Scenario.json
+
+FILTER_SCEANRIOS_TESTDATA_VALUE=Test_Data_For_Filter_Scenarios
+
  
  

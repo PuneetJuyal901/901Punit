@@ -6,7 +6,7 @@
     <classes>
       <class name="login.Verify_Login_Scenario">
         <methods>
-          <include name="verify_if_user_able_to_login_when_email_is_case_sensitive" invocation-numbers="0"/>
+          <include name="verify_if_user_able_to_login_with_CaseSensativeEmail" invocation-numbers="0"/>
           <include name="nameBefore"/>
           <include name="beforeSuite"/>
           <include name="initialzeBrowser"/>

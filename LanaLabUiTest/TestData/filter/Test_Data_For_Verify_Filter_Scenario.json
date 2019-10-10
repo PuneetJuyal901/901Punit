@@ -1,7 +1,7 @@
 
 {
 	"Test_Data_For_Filter_Scenarios":
-	[
+	
 		{	"validUserName":"punitjuyal901@gmail.com",
 		    "Invalidpassword":"Test@123456",
 		    "searchFieldVaue":"Country",
@@ -9,6 +9,6 @@
 			
 		}
 		
-	]
+	
 	
 }

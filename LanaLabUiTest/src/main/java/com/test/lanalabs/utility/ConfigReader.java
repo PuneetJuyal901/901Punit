@@ -35,7 +35,38 @@ public class ConfigReader {
       	 return prop.getProperty("EXTENT_CONFIG_PATH");
        }
 	   
-		  public  String app_url(){
+	   public  String app_url(){
 				 return prop.getProperty("APP_URL");
 				} 
+	   
+	   public String getLoginSceanrioTestDataJSONPath() {
+		   return prop.getProperty("LOGIN_CREDENTIALS_TESTDATA_PATH");
+	   }
+	   
+	   
+	   public String getLoginSceanrioTestDataValueForInvalidUserName() {
+		   return prop.getProperty("LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_INVALID_USER_NAME");
+	   }
+	   
+	   
+	   public String getLoginSceanrioTestDataValueForValidCaseSensativePassword() {
+		   return prop.getProperty("LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_INVALID_CASE_SENSATIVE_PASSWORD");
+	   }
+	   
+	   public String getLoginSceanrioTestDataValueForValidCaseSensativeUserName() {
+		   return prop.getProperty("LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_VALID_CASE_SENSATIVE_USERNAME");
+	   }
+	   
+	   public String getLoginSceanrioTestDataValueForValidCredentials() {
+		   return prop.getProperty("LOGIN_CREDENTIALS_TESTDATA_VALUE_FOR_VALID_CREDENTAILS");
+	   }
+	   
+	   public String getFilterScenarioTestDataJSONPath() {
+		   return prop.getProperty("FILTER_SCENARIO_TESTDATA_PATH");
+	   }
+	   
+	   public String getFilterScenarioTestDataValue() {
+		   return prop.getProperty("FILTER_SCEANRIOS_TESTDATA_VALUE");
+	   }
 }
+

@@ -30,25 +30,25 @@ public class JsonReader {
 			
 			e.printStackTrace();
 		}
-        JsonArray array = (JsonArray) jsonObj.get(typeData);
-        return searchJsonElement(array, totalDataRow, totalColumnEntry);
+		JsonObject obj = (JsonObject) jsonObj.getAsJsonObject(typeData);
+        return searchJsonElement(obj, totalDataRow, totalColumnEntry);
 	}
 	
-	public static Object[][] searchJsonElement(JsonArray jsonArray, int totalDataRow, int totalColumnEntry) 
+	public static Object[][] searchJsonElement(JsonObject jsonObj, int totalDataRow, int totalColumnEntry) 
 	{			
 		Object[][] matrix = new Object[totalDataRow][totalColumnEntry];
         int i =0;
         int j = 0;
-        for (JsonElement jsonElement : jsonArray) 
+        for (String jsonElement : jsonObj.keySet()) 
+        	
         {
-             for (Map.Entry<String, JsonElement> entry : jsonElement.getAsJsonObject().entrySet()) 
-             {
-            	 matrix[i][j] = entry.getValue().toString().replace("\"","");
+        	String val = jsonObj.get(jsonElement).toString();
+            	 matrix[i][j] = val.replace("\"","");
                  j++;   
             }
             i++;
             j = 0;
-        }
+        
         return matrix;
 	}
 }

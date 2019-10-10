@@ -49,5 +49,6 @@ public class LoginPage {
 		WaitHelper.isvisible(loginErrorMessage, LocalBrowserInitialzation.driver);
 		return loginErrorMessage.getText();
 	}
+	
 
 }

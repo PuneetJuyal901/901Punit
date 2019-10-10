@@ -3,11 +3,6 @@
 <suite name="MultipleSuite">
 
 
-
-
-
-
-
 	<test name="Test1" preserve-order="true">
 		<classes>
 			<class name="login.Verify_Login_Scenario" />
@@ -30,13 +25,6 @@
 			<parameter name="Browser" value="Chrome" />
 		</classes>
 	</test>
-
-
-
-
-
-
-
 
 
 </suite>
